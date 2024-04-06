@@ -5,14 +5,15 @@
 }
 
 .friend-item {
-  box-shadow: 13px 13px 21px -9px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 13px 13px 21px -9px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 13px 13px 21px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 8px 25px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 8px 25px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 8px 25px -3px rgba(0, 0, 0, 0.75);
   width: 100%;
   display: flex;
   justify-content: baseline;
   align-items: center;
   gap: 25px;
+  margin-bottom: 10px;
 }
 
 .friend-status {
@@ -24,8 +25,8 @@
 
 .friend-avatar {
   width: 20%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .friend-name {

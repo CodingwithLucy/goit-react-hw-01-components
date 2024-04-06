@@ -18,7 +18,6 @@
 }
 
 .stat-list > .stat-item {
-  background-color: blueviolet;
   padding: 15px;
   width: 20%;
   color: white;
@@ -37,4 +36,12 @@
 .stat-label,
 .stat-percentage {
   display: block;
+}
+
+.stat-item:nth-child(even) {
+  background-color: rgb(90, 201, 253);
+}
+
+.stat-item:nth-child(odd) {
+  background-color: #ae68ff;
 }
