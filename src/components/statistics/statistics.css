@@ -1,0 +1,40 @@
+.statistics {
+  display: block;
+  width: 40%;
+}
+
+.stat-list {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.stat-title {
+  font-size: 1.5rem;
+  color: grey;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+.stat-list > .stat-item {
+  background-color: blueviolet;
+  padding: 15px;
+  width: 20%;
+  color: white;
+}
+
+.stat-label {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.stat-percentage {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.stat-label,
+.stat-percentage {
+  display: block;
+}
